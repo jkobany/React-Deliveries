@@ -25,8 +25,8 @@ const Form = ({ delivery , onSave }) => {
         <div className = "myForm">
                 <input style={{height : 30 , width: 350 ,borderColor: "red" ,borderRadius:4, marginBottom: 20 }} placeholder = "Date" value={myDelivery.date} onChange={handleDateChanged}/>
                 <input style={{height : 30 , width: 350 ,borderColor: "red" ,borderRadius:4, marginBottom: 20 }} placeholder = "Name" value={myDelivery.name} onChange={handleNameChanged}/>
-                <input style={{height : 30 , width: 350 ,borderColor: "red" ,borderRadius:4, marginBottom: 20 }} placeholder = "City"value={myDelivery.city} onChange={handleCityChanged}/>
-                <button className="myBtn"   onClick={onClick}>{myDelivery.id?"Save":"Add"}</button>
+                <input style={{height : 30 , width: 350 ,borderColor: "red" ,borderRadius:4, marginBottom: 20,  }} placeholder = "City"value={myDelivery.city} onChange={handleCityChanged}/>
+                <button className="myBtn" style={{opacity:"70%"}}  onClick={onClick}>{myDelivery.id?"Save":"Add"}</button>
         </div>
     );
 }
