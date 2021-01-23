@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "date" : "01.01.21",
+        "city" : "Tel-Aviv",
+        "name" : "John Doe"
+    },
+    
+    {
+        "id" : 2,
+        "date" : "05.01.21",
+        "city" : "Haifa",
+        "name" : "John Doe"
+    },
+
+    {
+        "id" : 3,
+        "date" : "06.01.21",
+        "city" : "Jerusalem",
+        "name" : "John Doe"
+    }
+]
